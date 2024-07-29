@@ -1,0 +1,140 @@
+body {
+    justify-items: center;
+    align-items: center;
+    background-color: #ade3d9;
+}
+
+.calculator {
+    background-image: url("image 1 (1).png");
+    width: 349px;
+    height: 715px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 4px #266A62 #2A7F70;
+    box-shadow: -3px -4px 4px #266A62 #2A7F70;
+}
+
+#Display_Field {
+    width: 312px;
+    height: 190px;
+    background-color: #EBFFF9;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px 20px 5px 5px;
+    font: 32px Extra Bold;
+    text-align: right;
+    box-sizing: border-box;
+
+}
+
+.display-div {
+    padding-left: 19.5px;
+    padding-right: 30px;
+}
+
+button {
+    width: 55.5px;
+    height: 55.5px;
+    background-color: #266A62;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    font: 32px Extra Bold;
+    box-shadow: 3px 4px 4px #266A62;
+    box-shadow: -3px -4px 4px #266A62;
+    align-items: center;
+
+}
+
+.hr-top {
+    width: 53.25px;
+    height: 4.5px;
+    background-color: #30B69E;
+    border: 0.75px solid #FFFFFF;
+    border-radius: 15px;
+
+}
+
+.hr-bottom {
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 312px;
+    height: 9px;
+    background-color: #287D6E;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25), -2.25px -3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+#button {
+    padding-top: 20px;
+    padding-left: 20.5px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 55.5px 55.5px 55.5px 55.5px;
+}
+
+.button-clear {
+    width: 145.25px;
+    background-color: #74D3C2;
+    color: #266A62;
+}
+
+.button-isequalto {
+    width: 145.25px;
+    background: #F38C2C;
+    grid-area: 5/3;
+}
+
+@media (width < 480) {
+    .calculator {
+        width: 145px;
+        height: 334px;
+    }
+
+    Display_Field {
+        width: 175.5px;
+        height: 107.16p x;
+        margin: 15px;
+        font: 18px Extra Bold;
+    }
+
+    display-div {
+        padding-left: 14.5px;
+        padding-right: 15.25px;
+    }
+
+    button {
+        width: 41.63px;
+        height: 41.63px;
+        background-color: #266A62;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 90px;
+        cursor: pointer;
+        font: 32px Extra Bold;
+        box-shadow: 3px 4px 4px #266A62;
+        box-shadow: -3px -4px 4px #266A62;
+        align-items: center;
+    }
+
+    hr-top {
+        width: 39.94px;
+        height: 3.38x;
+        background-color: #30B69E;
+        border: 0.56px solid #FFFFFF;
+        border-radius: 11.25px;
+
+    }
+    hr-bottom {
+        margin-top: 20px;
+        box-sizing: border-box;
+        width: 312px;
+        height: 9px;
+        background-color: #287D6E;
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25), -2.25px -3px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+    }
+
+}

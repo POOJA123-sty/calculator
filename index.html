@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div>
+            <hr class="hr-top">
+        </div>
+        <div>
+            <input id="Display_Field" type="text" placeholder="0">
+        </div>
+
+        <div>
+            <hr class="hr-bottom">
+        </div>
+            <div id="button">
+                <button class="button-number" onclick="clickToEnter('7')">7</button> 
+                <button class="button-number" onclick="clickToEnter('8')">8</button>
+                <button class="button-number" onclick="clickToEnter('9')">9</button>
+                <button class="button-operator" onclick="clickToEnter('+')">+</button>
+                <button class="button-number" onclick="clickToEnter('4')">4</button>
+                <button class="button-number" onclick="clickToEnter('5')">5</button>
+                <button class="button-number" onclick="clickToEnter('6')">6</button>
+                <button class="button-operator" onclick="clickToEnter('-')">-</button>
+                <button class="button-number" onclick="clickToEnter('1')">1</button>
+                <button class="button-number" onclick="clickToEnter('2')">2</button>
+                <button class="button-number" onclick="clickToEnter('3')">3</button>
+                <button class="button-operator" onclick="clickToEnter('*')">*</button>
+                <button class="button-number" onclick="clickToEnter('0')">0</button>
+                <button class="button-number" onclick="clickToEnter('00')">00</button>
+                <button class="button-operator" onclick="clickToEnter('.')">.</button>
+                <button class="button-operator" onclick="clickToEnter('/')">/</button>
+                <button class="button-clear" onclick="clearDisplay()">clear</button>
+                <button class="button-isequalto" onclick="calculateResult()" >result</button>
+
+
+            </div>
+</div>
+
+    <script src="logic.js" ></script>
+</body>
+</html>
